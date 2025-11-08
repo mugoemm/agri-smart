@@ -12,7 +12,7 @@
 ## 🚀 Live Deployments
 
 - **Frontend (Vercel)**: [https://your-app.vercel.app](https://your-app.vercel.app) _(Update after deployment)_
-- **Backend API (Render)**: [https://your-backend.onrender.com](https://your-backend.onrender.com) _(Update after deployment)_
+- **Backend API (Render)**: [https://agri-smart-1.onrender.com](https://agri-smart-1.onrender.com) ✅ **LIVE**
 
 ---
 
