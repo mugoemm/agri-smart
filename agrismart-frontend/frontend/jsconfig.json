@@ -1,0 +1,20 @@
+﻿{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@components/*": ["src/components/*"],
+      "@pages/*": ["src/pages/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"],
+      "@assets/*": ["src/assets/*"]
+    },
+    "jsx": "react-jsx",
+    "checkJs": false,
+    "module": "ESNext",
+    "target": "ES2020",
+    "moduleResolution": "Bundler"
+  },
+  "exclude": ["node_modules", "build", "dist"],
+  "include": ["src/**/*"]
+}
