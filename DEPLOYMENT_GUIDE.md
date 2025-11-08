@@ -51,12 +51,12 @@ Your backend is already configured! Just ensure `.env` values are ready.
    - Connect your GitHub repository
    - Select `agrismart-backend` (or your repo name)
 
-3. **Configure Settings**
+3. **Configure Settings** ⚠️ CRITICAL - Must Set Root Directory!
    ```
    Name: agrismart-backend
    Region: Oregon (US West) or closest to you
    Branch: main
-   Root Directory: (leave empty or specify path)
+   Root Directory: agrismart-backend ⚠️ IMPORTANT - MUST SET THIS!
    Runtime: Node
    Build Command: npm install
    Start Command: npm start
@@ -119,10 +119,10 @@ Your backend is already configured! Just ensure `.env` values are ready.
    - Import your GitHub repository
    - Select the repository
 
-3. **Configure Project**
+3. **Configure Project** ⚠️ CRITICAL - Must Set Root Directory!
    ```
    Framework Preset: Vite
-   Root Directory: frontend (if monorepo, otherwise leave empty)
+   Root Directory: agrismart-frontend/frontend ⚠️ IMPORTANT - MUST SET THIS!
    Build Command: npm run build
    Output Directory: dist
    Install Command: npm install

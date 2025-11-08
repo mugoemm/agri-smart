@@ -270,8 +270,9 @@ Navigate to the URL shown in terminal (usually `http://localhost:5173`)
 1. Push code to GitHub (already done)
 2. Go to [Render Dashboard](https://dashboard.render.com/)
 3. Create new "Web Service"
-4. Connect GitHub repository
-5. Configure:
+4. Connect GitHub repository: `mugoemm/agri-smart`
+5. Configure: ⚠️ **CRITICAL SETTINGS**
+   - **Root Directory**: `agrismart-backend` ⚠️ **MUST SET THIS!**
    - **Build Command**: `npm install`
    - **Start Command**: `npm start`
    - **Environment Variables**: Add from `.env.example`
@@ -282,10 +283,10 @@ Navigate to the URL shown in terminal (usually `http://localhost:5173`)
 ### Deploy Frontend to Vercel
 
 1. Go to [Vercel Dashboard](https://vercel.com/)
-2. Import GitHub repository
-3. Configure:
+2. Import GitHub repository: `mugoemm/agri-smart`
+3. Configure: ⚠️ **CRITICAL SETTINGS**
    - **Framework**: Vite
-   - **Root Directory**: `frontend`
+   - **Root Directory**: `agrismart-frontend/frontend` ⚠️ **MUST SET THIS!**
    - **Build Command**: `npm run build`
    - **Output Directory**: `dist`
 4. Add environment variable: `VITE_API_URL=https://your-backend.onrender.com`

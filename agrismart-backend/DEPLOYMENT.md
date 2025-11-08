@@ -20,11 +20,11 @@ Backend API for AgriSmart - Agricultural Marketplace Platform
    - Connect your GitHub account
    - Select your `agrismart-backend` repository
 
-4. **Configure Service**
+4. **Configure Service** ⚠️ IMPORTANT
    - **Name**: `agrismart-backend` (or your preferred name)
    - **Region**: Choose closest to your users
    - **Branch**: `main` (or your default branch)
-   - **Root Directory**: Leave empty (or specify if in monorepo)
+   - **Root Directory**: `agrismart-backend` ⚠️ **MUST SET THIS!**
    - **Runtime**: `Node`
    - **Build Command**: `npm install`
    - **Start Command**: `npm start`
